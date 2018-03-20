@@ -1,0 +1,1 @@
+# Pacote de classes utilitárias.#
