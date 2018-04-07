@@ -1,1 +1,1 @@
-# Pacote de classes utilitárias.#
+# Utility Package
