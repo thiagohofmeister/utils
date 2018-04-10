@@ -3,18 +3,30 @@
 namespace MDW\Utils;
 
 /**
- * Formatador de rotas.
+ * Router formatter.
  *
  * @author Thiago Hofmeister <thiago.souza@moovin.com.br>
  */
 class Router
 {
-    public static function parser (string $path)
+    /**
+     * Returns the concatenated domain with a string passed by parameter.
+     *
+     * @param string $path
+     *
+     * @return string
+     */	
+    public static function parser (string $path): string
     {
         return self::getDomainUrl() . '/' . $path;
     }
 
-    private static function getDomainUrl ()
+    /**
+     * Returns website domain.
+     *
+     * @return string
+     */
+    private static function getDomainUrl (): string
     {
         $protocol = strtolower(reset(explode('/', $_SERVER['SERVER_PROTOCOL']))) . '://';
 
