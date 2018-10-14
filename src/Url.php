@@ -1,13 +1,13 @@
 <?php
 
-namespace MDW\Utils;
+namespace THS\Utils;
 
 /**
  * Router formatter.
  *
- * @author Thiago Hofmeister <thiago.souza@moovin.com.br>
+ * @author Thiago Hofmeister <thiago.hofmeister@gmail.com>
  */
-class Router
+class Url
 {
     /**
      * Returns the concatenated domain with a string passed by parameter.

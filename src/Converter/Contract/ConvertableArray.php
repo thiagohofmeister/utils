@@ -1,6 +1,6 @@
 <?php
 
-namespace MDW\Utils\Converter\Contract;
+namespace THS\Utils\Converter\Contract;
 
 /**
  * Interface com métodos que o conversor deve implementar para ser tratado.

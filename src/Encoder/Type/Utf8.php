@@ -1,9 +1,9 @@
 <?php
 
-namespace MDW\Utils\Encoder\Type;
+namespace THS\Utils\Encoder\Type;
 
-use MDW\Utils\Encoder\Contract\Codifiable;
-use MDW\Utils\Encoder\Exception\Utf8Exception;
+use THS\Utils\Encoder\Contract\Codifiable;
+use THS\Utils\Encoder\Exception\Utf8Exception;
 use stdClass;
 
 /**

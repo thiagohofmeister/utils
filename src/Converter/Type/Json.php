@@ -1,11 +1,11 @@
 <?php
 
-namespace MDW\Utils\Converter\Type;
+namespace THS\Utils\Converter\Type;
 
-use MDW\Utils\Converter\Contract\ConvertableArray;
-use MDW\Utils\Converter\Exception\JsonException;
-use MDW\Utils\Encoder\Exception\Utf8Exception;
-use MDW\Utils\Encoder\Type\Utf8;
+use THS\Utils\Converter\Contract\ConvertableArray;
+use THS\Utils\Converter\Exception\JsonException;
+use THS\Utils\Encoder\Exception\Utf8Exception;
+use THS\Utils\Encoder\Type\Utf8;
 
 /**
  * Trata das conversões de JSON para array ou vice versa.

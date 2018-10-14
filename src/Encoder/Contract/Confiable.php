@@ -1,6 +1,6 @@
 <?php
 
-namespace MDW\Utils\Encoder\Contract;
+namespace THS\Utils\Encoder\Contract;
 
 /**
  * Interface com métodos que o codificador deve implementar.

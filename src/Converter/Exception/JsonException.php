@@ -1,6 +1,6 @@
 <?php
 
-namespace MDW\Utils\Converter\Exception;
+namespace THS\Utils\Converter\Exception;
 
 use Exception;
 

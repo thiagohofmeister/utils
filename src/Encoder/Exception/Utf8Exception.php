@@ -1,6 +1,6 @@
 <?php
 
-namespace MDW\Utils\Encoder\Exception;
+namespace THS\Utils\Encoder\Exception;
 
 use Exception;
 
