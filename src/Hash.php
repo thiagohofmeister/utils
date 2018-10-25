@@ -10,7 +10,7 @@ namespace THS\Utils;
 class Hash
 {
     /**
-     * Retorna uma hash da senha.
+     * Retorna uma hash da string.
      *
      * @param string $str
      *
@@ -22,15 +22,15 @@ class Hash
     }
 
     /**
-     * Valida uma hash de senha.
+     * Valida uma string por uma hash.
      *
-     * @param string $strHashed
+     * @param string $strToCheck
      * @param string $hash
      *
      * @return string
      */
-    public static function check(string $strHashed, string $hash): string
+    public static function check(string $strToCheck, string $hash): string
     {
-        return password_verify($strHashed, $hash);
+        return password_verify($strToCheck, $hash);
     }
 }
