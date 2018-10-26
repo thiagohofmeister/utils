@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Enum;
+namespace THS\Utils\Enum;
 
 use Eloquent\Enumeration\AbstractEnumeration;
 
