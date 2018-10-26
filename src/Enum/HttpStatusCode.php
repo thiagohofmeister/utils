@@ -18,7 +18,7 @@ use Eloquent\Enumeration\AbstractEnumeration;
  * @method static HttpStatusCode TOO_MANY_REQUESTS()
  * @method static HttpStatusCode BAD_REQUEST()
  *
- * @author Dantiéris Castilhos Rabelini <dantieris.rabelini@moovin.com.br>
+ * @author Thiago Hofmeister <thiago.hofmeister@gmail.com>
  */
 class HttpStatusCode extends AbstractEnumeration
 {
