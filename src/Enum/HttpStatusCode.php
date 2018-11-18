@@ -13,6 +13,7 @@ use Eloquent\Enumeration\AbstractEnumeration;
  * @method static HttpStatusCode UNAUTHORIZED()
  * @method static HttpStatusCode NOT_FOUND()
  * @method static HttpStatusCode METHOD_NOT_ALLOWED()
+ * @method static HttpStatusCode CONFLICT()
  * @method static HttpStatusCode UNPROCESSABLE_ENTITY()
  * @method static HttpStatusCode INTERNAL_SERVER_ERROR()
  * @method static HttpStatusCode TOO_MANY_REQUESTS()
@@ -46,6 +47,9 @@ class HttpStatusCode extends AbstractEnumeration
 
     /** @var int */
     const METHOD_NOT_ALLOWED = 405;
+
+    /** @var int */
+    const CONFLICT = 409;
 
     /** @var int */
     const UNPROCESSABLE_ENTITY = 422;
